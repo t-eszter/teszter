@@ -94,7 +94,7 @@ function Home() {
         </div>
         <div className='my-20 text-xl bg-vivamidnight-50'>
             <p className=' p-20'>
-            For previous projects please visit previous <a href="http://teszter.com/hello" target="_blank" rel="noreferrer" className="underline">Portfolio </a> while I'm updating this one. ☺
+            For previous projects please visit previous <a href="https://past.teszter.com" target="_blank" rel="noreferrer" className="underline">Portfolio </a>. ☺
             </p>
         </div>
     </section>
