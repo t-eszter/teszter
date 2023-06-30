@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #eff6ff !important; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+svg {
+  display: inline-block;
+}
+
+#hero {
+  transition: 0.5s;
+  transform-origin: bottom right;
+  transform: scale(1.25);
+}
+
+#hero:hover {
+  transform: scale(1.1);
+}
+
+nav:hover + div #hero {
+  transform: scale(1.2);
+  /* Additional styling for the hover effect on #hero */
+  transition: 0.5s;
+  transform-origin: bottom right;
+  transform: scale(1.1);
+}
+
+.projectOne_img {
+  background-image: url('./images/zuerichAdresse/zuerichAdresse.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.projectTwo_img {
+  background-image: url('./images/datadrivendesign/thumb_ddd.gif');
+  background-size: cover;
+  background-position: top;
+}
+
+.projectThree_img {
+  background-image: url('./images/bes/thumb_bes.png');
+  background-size: cover;
+  background-position: top;
+}
+
+.projectFour_img {
+  background-image: url('./images/bes/thumb_bes.png');
+  background-size: cover;
+  background-position: top;
+}
+
