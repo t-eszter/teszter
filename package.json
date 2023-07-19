@@ -1,5 +1,5 @@
 {
-  "name": "Eszter Tóth - Portfolio of a Digital Product Engineer",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "/",
@@ -21,7 +21,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    // "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
