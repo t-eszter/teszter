@@ -32,7 +32,7 @@ const Home = () => {
         </div>
         </div>
 
-      <section className="flex flex-wrap justify-center bg-white px-4 sm:px-6 lg:px-8 pt-10">
+      <section className="flex flex-wrap justify-center bg-white px-4 sm:px-6 lg:px-8 p-10 pb-24">
         <h2 className="text-2xl block w-9/12 mb-6">Selected works</h2>
         <div className="grid gap-20 grid-cols-1 sm:grid-cols-2 w-9/12">
           <div className="w-auto">
@@ -59,12 +59,21 @@ const Home = () => {
               <p>UI/UX and front-end consulting for a social media startup</p>
             </Link>
           </div>
+          <div className="w-auto">
+            <Link to="https://past.teszter.com" className="block" target="_blank">
+            <div className="bg-vivamidnight-50 rounded p-6 h-80 flex flex-col justify-center items-center">
+                <p className="text-xl p-8 text-center leading-relaxed">
+                    For previous projects,<br/> please visit previous <br/><a href="https://past.teszter.com" target="_blank" rel="noreferrer" className="underline">Portfolio</a>. ☺
+                </p>
+                </div>
+            </Link>
+          </div>
         </div>
-        <div className='my-20 text-xl bg-vivamidnight-50'>
+        {/* <div className='my-20 text-xl bg-vivamidnight-50'>
           <p className=' p-20'>
             For previous projects, please visit the previous <a href="https://past.teszter.com" target="_blank" rel="noreferrer" className="underline">Portfolio</a>. ☺
           </p>
-        </div>
+        </div> */}
       </section>
     </div>
   );
