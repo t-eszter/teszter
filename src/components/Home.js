@@ -60,10 +60,10 @@ const Home = () => {
             </Link>
           </div>
           <div className="w-auto">
-            <Link to="https://past.teszter.com" className="block" target="_blank">
+            <Link to="https://design.teszter.com" className="block" target="_blank">
             <div className="bg-vivamidnight-50 rounded p-6 h-80 flex flex-col justify-center items-center">
                 <p className="text-xl p-8 text-center leading-relaxed">
-                    For previous projects,<br/> please visit previous <br/><a href="https://past.teszter.com" target="_blank" rel="noreferrer" className="underline">Portfolio</a>. ☺
+                    For previous projects,<br/> please visit previous <br/><a href="https://design.teszter.com" target="_blank" rel="noreferrer" className="underline">Portfolio</a>. ☺
                 </p>
                 </div>
             </Link>

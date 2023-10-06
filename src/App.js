@@ -19,20 +19,20 @@ class App extends React.Component {
     return (
       // <RouterPage />
       <HelmetProvider>
-      <div className='font-kumbh bg-vivanautica-50'>
-        <Router>
-        <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/zuerichadresse" element={<ZuerichAdresse />} />
-            <Route path="/data_driven_design" element={<DataDrivenDesign />} />
-            <Route path="/besity" element={<Besity />} />
-            <Route path="/about" element={<About />} />
+        <div className='font-kumbh bg-vivanautica-50'>
+          <Router>
+          <Header />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/zuerichadresse" element={<ZuerichAdresse />} />
+              <Route path="/data_driven_design" element={<DataDrivenDesign />} />
+              <Route path="/besity" element={<Besity />} />
+              <Route path="/about" element={<About />} />
 
-          </Routes>
-        </Router>
-        <Footer />
-      </div>
+            </Routes>
+          </Router>
+          <Footer />
+        </div>
       </HelmetProvider>
       )
   }
